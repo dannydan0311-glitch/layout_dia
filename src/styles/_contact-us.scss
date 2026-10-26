@@ -86,9 +86,12 @@
     background: transparent;
     transition: border-color 0.3s ease;
 
+    outline: none;
+
     &:hover,
     &:focus {
       border-bottom-color: utils.$main-blue;
+
     }
 
     &:-webkit-autofill,
@@ -98,6 +101,7 @@
       font-size: 15px;
       font-weight: 500;
       -webkit-text-fill-color: utils.$white;
+      -webkit-box-shadow: 0 0 0 1000px utils.$dark-bg inset;
     }
   }
 

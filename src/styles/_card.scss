@@ -7,10 +7,18 @@
   align-items: center;
   gap: 32px;
 
+  padding: 10px;
+
   width: fit-content;
+  transition: 0.3s ease;
 
   @include utils.on-desktops {
     grid-column: span 4;
+  }
+
+  &:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
   }
 
   &__img {
