@@ -98,8 +98,8 @@
     &:-webkit-autofill:hover,
     &:-webkit-autofill:focus {
       font-family: Poppins, sans-serif;
-      font-size: 15px;
       font-weight: 500;
+      font-size: 15px;
       -webkit-text-fill-color: utils.$white;
       -webkit-box-shadow: 0 0 0 1000px utils.$dark-bg inset;
     }
